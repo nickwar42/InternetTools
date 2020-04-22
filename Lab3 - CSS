@@ -1,0 +1,26 @@
+body{
+
+        background-image: url("https://media3.giphy.com/media/13FrpeVH09Zrb2/source.gif");
+  
+}
+
+.bluetr:nth-child(even) {
+color:yellow;
+background-color: #000080;
+
+}
+
+.yellowtr:nth-child(even) {
+color:blue;
+background-color: yellow;
+
+}
+
+.border{
+ 	border-radius: 25px;
+	border: 20px solid #194a70;
+	padding: 40px;
+	width: 900px;
+	height: 900px;
+background-color:white;
+}
