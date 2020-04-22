@@ -1,0 +1,84 @@
+<!-- Nick Warenda Lab 2, FORMS -->
+
+
+<!DOCTYPE html>
+<html lang = "en">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<title> Lab 2. Shh!</title>
+
+	<div style="width: 100%; font-size: 69px; font-weight: bold; text-align: left; color: white;"> Lab 2 - HTML Forms</div>
+	<div class="w3-bar w3-black">
+  <a href="http://itools.cs.laurentian.ca/" class="w3-bar-item w3-button">iTools</a>
+  <a href="http://coscvm33.cs.laurentian.ca/" class="w3-bar-item w3-button">Home</a>
+  <a href="/Labs/lab2.html" class="w3-bar-item w3-button">Lab 2</a>
+  <a href="/Labs/lab3.html" class="w3-bar-item w3-button">Lab 3</a>
+  <a href="/Labs/lab4.php" class="w3-bar-item w3-button">Lab 4</a> 
+<a href="/Labs/lab5.php" class="w3-bar-item w3-button">Lab 5</a>
+<a href="http://coscvm33.cs.laurentian.ca/myadmin/" class="w3-bar-item w3-button">Lab 6</a>
+  <a href="/Labs/extralab.php" class="w3-bar-item w3-button">Lab 7? 6.5?</a>  
+<a href="/Labs/lab7.php" class="w3-bar-item w3-button">Lab 7</a>
+  <a href="/Labs/lab8.php" class="w3-bar-item w3-button">Lab 8</a>
+ 
+<a href="/Project/Musicorum.php" class="w3-bar-item w3-button">Project</a>
+	</div>
+
+
+	<style> body{
+
+                 background-image: url("https://media3.giphy.com/media/KwwRlMDSTdbIA/giphy.gif");
+                 background-color: #cccccc;
+
+		}
+		table, form, p{
+		            margin:0 auto;
+		 }
+   	</style>
+	
+	<!-- START OF LAB 2 -->
+	
+	<table style=background-color:black;>
+	<tr style=background-color:white;>
+	<th> Platform: </th> 
+	<td>
+	<select>
+ 		 <option value="spotify">Spotify</option>
+  		<option value="apple music">Apple Music</option>
+  		<option value="pandora">Pandora</option>
+  		<option value="radio">Radio</option>
+	</select>
+	 </td>
+	</tr>        
+	
+	<tr style=background-color:white;>
+	<th> Gender: </th>
+	<td><input type="radio" name="gender" value="Male"> Male<br>
+	<input type="radio" name="gender" value="female"> Female<br></td>
+	</tr>
+	
+	<tr style=background-color:white;>
+	<th> Genres: </th>
+	<td><input type="checkbox" name="genre1" value="rock"> Rock<br>
+	<input type="checkbox" name="genre2" value="yeehaw"> Country<br>
+	<input type="checkbox" name="genre3" value="hip"> Hip Hop<br>
+
+	
+	
+	<input type="checkbox" name="genre1" value="bleet"> Jazz<br>
+        <input type="checkbox" name="genre2" value="record"> Classical <br>
+        <input type="checkbox" name="genre3" value="dance" > Dance<br>
+	</td>
+
+	   <tr style=background-color:white;>
+	<th> Comments: </th>
+	<td> <textarea> </textarea>
+
+</table>
+
+
+	 <p style=color:white;> Enter your name: <p>
+        <form> <br> <input type="text">
+	<input type="submit">
+            <input type="reset">
+        </form>
+
+</html>
