@@ -1,3 +1,10 @@
+<!-- This is Musicorum, my final project for Internet Tools. It is 5 different files, all divided by ----lines. 
+
+If you're reading this, it means there must be SOME interest. Please hire me! I will work for food and board.
+-->
+
+
+
 <?php
 
 session_start();
